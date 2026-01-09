@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend Developer crafting digital experiences that matter. View my portfolio of web projects and designs.">
+  <title>Mohammed Allafta | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">Mohammed<span>.</span></a>
+      <input type="checkbox" id="menu-checkbox" aria-hidden="true">
+      <label for="menu-checkbox" class="menu-toggle" aria-label="Toggle navigation menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </label>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="portfolio.html" class="nav__link">Work</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__greeting animate-fade-in animate-delay-1">Hi, I'm Mohammed Allafta</p>
+          <h1 class="hero__title animate-fade-in animate-delay-2">
+            <span>Frontend Developer</span>
+            <span>crafting digital</span>
+            <span>experiences.</span>
+          </h1>
+          <p class="hero__subtitle animate-fade-in animate-delay-3">
+            I build thoughtful, accessible web experiences with clean code and modern design principles.
+          </p>
+          <div class="hero__cta animate-fade-in animate-delay-4">
+            <a href="portfolio.html" class="btn btn--primary">View My Work</a>
+            <a href="contact.html" class="btn btn--outline">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero__image animate-fade-in animate-delay-3">
+          <div class="hero__image-wrapper">
+            <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="400" height="500" fill="#e0ddd8"/>
+              <circle cx="200" cy="180" r="80" fill="#c4c0ba"/>
+              <ellipse cx="200" cy="420" rx="120" ry="140" fill="#c4c0ba"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="selected-work">
+      <div class="container">
+        <header class="section-header">
+          <div>
+            <p class="section-label">Portfolio</p>
+            <h2 class="section-title">Selected Work</h2>
+          </div>
+          <a href="portfolio.html" class="btn btn--ghost">View All Projects</a>
+        </header>
+        <div class="portfolio-grid">
+          <article class="project-card project-card--featured">
+            <div class="project-card__image">
+              <div class="image-layout">
+                <img src="images/projects/MAS/250x150.png" class="img-top-left">
+                <img src="images/projects/MAS/250x120.png" class="img-bottom-left">
+                <img src="images/projects/MAS/320x290.png" class="img-right">
+              </div>
+              <div class="project-card__overlay">
+                <span class="project-card__category">Website</span>
+                <h3 class="project-card__title">Trading Company</h3>
+                <a href="portfolio.html" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <!-- Framtida projekt
+          <article class="project-card">
+            <div class="project-card__image">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#e0ddd8"/>
+                <rect x="40" y="40" width="320" height="180" rx="8" fill="#c4c0ba"/>
+                <rect x="40" y="240" width="150" height="20" rx="4" fill="#c4c0ba"/>
+                <text x="200" y="285" text-anchor="middle" fill="#6b6b6b" font-family="sans-serif" font-size="12">Project Preview</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">Brand Identity</span>
+                <h3 class="project-card__title">Artisan Coffee Co.</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#e0ddd8"/>
+                <circle cx="200" cy="130" r="70" fill="#c4c0ba"/>
+                <rect x="100" y="220" width="200" height="40" rx="8" fill="#c4c0ba"/>
+                <text x="200" y="285" text-anchor="middle" fill="#6b6b6b" font-family="sans-serif" font-size="12">Project Preview</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">UI/UX Design</span>
+                <h3 class="project-card__title">Fitness Tracker App</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          -->
+        </div>
+      </div>
+    </section>
+    <section class="cta-section">
+      <div class="container">
+        <p class="section-label">Let's Connect</p>
+        <h2>Have a project in mind?</h2>
+        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+        <a href="contact.html" class="btn btn--primary">Get In Touch</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copyright">&copy; 2026 Mohammed Allafta. All rights reserved.</p>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://github.com" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:allafta.mohammed@gmail.com" class="footer__link">Email</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

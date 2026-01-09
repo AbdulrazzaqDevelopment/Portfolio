@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore my portfolio of frontend development projects, including web applications, brand identities, and UI/UX designs.">
+  <title>Work | Mohammed Allafta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">Mohammed<span>.</span></a>
+      <input type="checkbox" id="menu-checkbox" aria-hidden="true">
+      <label for="menu-checkbox" class="menu-toggle" aria-label="Toggle navigation menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </label>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="portfolio.html" class="nav__link nav__link--active">Work</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="portfolio-hero">
+      <div class="container">
+        <p class="section-label animate-fade-in">Portfolio</p>
+        <h1 class="animate-fade-in animate-delay-1">My Work</h1>
+        <!-- För framtida användning
+        <p class="animate-fade-in animate-delay-2">A selection of projects I've worked on, ranging from web applications to brand identities.</p>
+         -->
+      </div>
+    </section>
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <!-- För framtida användning
+        <div class="portfolio-filter">
+          <button class="filter-btn filter-btn--active" aria-pressed="true">All</button>
+          <button class="filter-btn" aria-pressed="false">Web Apps</button>
+          <button class="filter-btn" aria-pressed="false">Websites</button>
+          <button class="filter-btn" aria-pressed="false">UI/UX</button>
+        </div>
+        -->
+        <div class="portfolio-grid">
+          <article class="project-card project-card--featured">
+            <div class="project-card__image">
+              <div class="image-layout">
+                <img src="images/projects/MAS/250x150.png" class="img-top-left">
+                <img src="images/projects/MAS/250x120.png" class="img-bottom-left">
+                <img src="images/projects/MAS/320x290.png" class="img-right">
+              </div>
+              <div class="project-card__overlay">
+                <span class="project-card__category">Website</span>
+                <h3 class="project-card__title">Trading Company</h3>
+                <a href="https://mustafa-alaa.com/" class="project-card__link" target="_href">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <!-- Framtida projekt
+          <article class="project-card">
+            <div class="project-card__image">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#e0ddd8"/>
+                <rect x="40" y="40" width="320" height="180" rx="8" fill="#c4c0ba"/>
+                <rect x="40" y="240" width="150" height="20" rx="4" fill="#c4c0ba"/>
+                <text x="200" y="285" text-anchor="middle" fill="#6b6b6b" font-family="sans-serif" font-size="12">Artisan Coffee Co.</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">Brand Identity</span>
+                <h3 class="project-card__title">Artisan Coffee Co.</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#e0ddd8"/>
+                <circle cx="200" cy="130" r="70" fill="#c4c0ba"/>
+                <rect x="100" y="220" width="200" height="40" rx="8" fill="#c4c0ba"/>
+                <text x="200" y="285" text-anchor="middle" fill="#6b6b6b" font-family="sans-serif" font-size="12">Fitness Tracker</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">UI/UX Design</span>
+                <h3 class="project-card__title">Fitness Tracker App</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#e0ddd8"/>
+                <rect x="40" y="60" width="140" height="180" rx="8" fill="#c4c0ba"/>
+                <rect x="200" y="60" width="160" height="85" rx="8" fill="#c4c0ba"/>
+                <rect x="200" y="160" width="160" height="85" rx="8" fill="#c4c0ba"/>
+                <text x="200" y="285" text-anchor="middle" fill="#6b6b6b" font-family="sans-serif" font-size="12">Real Estate Platform</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">Web Application</span>
+                <h3 class="project-card__title">Real Estate Platform</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#e0ddd8"/>
+                <rect x="60" y="50" width="280" height="160" rx="8" fill="#c4c0ba"/>
+                <circle cx="100" cy="240" r="25" fill="#c4c0ba"/>
+                <rect x="140" y="225" width="200" height="12" rx="4" fill="#c4c0ba"/>
+                <rect x="140" y="245" width="140" height="12" rx="4" fill="#c4c0ba"/>
+                <text x="200" y="290" text-anchor="middle" fill="#6b6b6b" font-family="sans-serif" font-size="12">Travel Blog</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">Website</span>
+                <h3 class="project-card__title">Wanderlust Travel Blog</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card project-card--featured">
+            <div class="project-card__image">
+              <svg viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="800" height="450" fill="#e0ddd8"/>
+                <rect x="80" y="60" width="640" height="280" rx="12" fill="#c4c0ba"/>
+                <circle cx="200" cy="390" r="30" fill="#c4c0ba"/>
+                <circle cx="280" cy="390" r="30" fill="#c4c0ba"/>
+                <circle cx="360" cy="390" r="30" fill="#c4c0ba"/>
+                <rect x="440" y="370" width="200" height="40" rx="8" fill="#c4c0ba"/>
+                <text x="400" y="430" fill="#6b6b6b" font-family="sans-serif" font-size="14">Music Streaming Service</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">Web Application</span>
+                <h3 class="project-card__title">Music Streaming Service</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#e0ddd8"/>
+                <rect x="50" y="40" width="300" height="50" rx="8" fill="#c4c0ba"/>
+                <rect x="50" y="110" width="140" height="140" rx="8" fill="#c4c0ba"/>
+                <rect x="210" y="110" width="140" height="65" rx="8" fill="#c4c0ba"/>
+                <rect x="210" y="185" width="140" height="65" rx="8" fill="#c4c0ba"/>
+                <text x="200" y="285" text-anchor="middle" fill="#6b6b6b" font-family="sans-serif" font-size="12">Recipe Finder</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">UI/UX Design</span>
+                <h3 class="project-card__title">Recipe Finder App</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#e0ddd8"/>
+                <polygon points="200,40 350,140 350,240 200,260 50,240 50,140" fill="#c4c0ba"/>
+                <text x="200" y="285" text-anchor="middle" fill="#6b6b6b" font-family="sans-serif" font-size="12">Architecture Studio</text>
+              </svg>
+              <div class="project-card__overlay">
+                <span class="project-card__category">Website</span>
+                <h3 class="project-card__title">Architecture Studio</h3>
+                <a href="#" class="project-card__link">View Project <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </article>
+        -->
+        </div>
+      </div>
+    </section>
+    <section class="cta-section">
+      <div class="container">
+        <p class="section-label">Start a Project</p>
+        <h2>Have something in mind?</h2>
+        <p>Let's work together to bring your ideas to life with clean code and thoughtful design.</p>
+        <a href="contact.html" class="btn btn--primary">Get In Touch</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copyright">&copy; 2026 Mohammed Allafta. All rights reserved.</p>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://github.com" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:allafta.mohammed@gmail.com" class="footer__link">Email</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
